@@ -1,0 +1,239 @@
+html{
+    position: relative;
+}
+
+body{
+    width: 70%;
+    min-width: 600px;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+header{
+    background-color: #f0eeef;
+    height: 105px;
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header img.logo{
+    margin-left: 20px;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;/*resetea styles del browser*/
+    padding: 0;/*resetea styles del browser*/
+    display: flex;
+    margin-right: 1.5em;
+
+}
+
+header ul li img{/* iconos redes sociales*/
+    width: 35px;
+    height: 35px;
+
+}
+
+nav{
+    width:100% ;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 0;/*resetea styles del browser*/
+    margin-top:0;/*resetea styles del browser*/
+    padding: 0;/*resetea styles del browser*/
+    
+}
+
+nav ul li{
+    background-color: #32142d;
+    flex: auto;
+    padding-top: 5px;
+    height: 25px;
+    text-align: center;
+    margin-top: 20px;
+    border-right: 5px solid white;
+    justify-content: space-between;
+    
+    
+}
+
+nav ul li:last-child{
+    border-right: none;
+
+}    
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+section div.cuadro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 20%;
+    margin-bottom: 20px;
+  
+}
+
+section div.cuadro button{
+    background-color: #32142d;
+    width: 25%;
+    color: white;
+    border: none;
+    margin-left: 70%;
+}
+
+main{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    
+}
+
+
+main div.publicidad{
+    background-color: rgb(248, 240, 245);
+    /*height: 475px;*/
+    /*align-items: stretch;*/
+    }
+
+main div.maininfo{
+    width: 70%;
+    margin: 0;
+    padding: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    
+}
+
+main div.maininfo h1{
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+main div.maininfo img{
+    margin-top: 5px;
+}
+
+main div.maininfo p{
+    text-align: left;
+    padding: 5px;
+}
+
+footer{
+    background-color: #32142d;
+    color: white;
+    padding: 10px;
+
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        width: 500px;
+        flex-wrap: wrap;
+    }
+
+    header{
+        width: 500px;
+        flex-direction: column;
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    header img.logo{
+        margin-left: 50px;
+    }
+
+    header ul{
+        margin-right: 0px;
+    }
+
+    header ul li{
+        flex-direction: column;
+    }
+    
+    header ul li img{/* iconos redes sociales*/
+        width: 25px;
+        height: 25px;
+    
+    }
+
+    nav{
+        width: 500px;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav ul li{
+        border-right: 0;
+        margin: 0;
+        border-bottom: 1px solid white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+    }
+
+    section div.cuadro{
+        margin-bottom: 20px;
+    }
+
+    section div.cuadro h4{
+        text-align: center ;
+    }
+
+    section div.cuadro p{
+        padding: 0px 5px 0px 5px;
+    }
+
+    section div.cuadro button{
+        margin-left: 40%;
+    }   
+
+    main{
+        flex-direction: column;
+    }
+
+    main div.maininfo img{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+
+
+}
+
+
