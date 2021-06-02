@@ -1,0 +1,196 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#container{
+    font-family: 'Lato', sans-serif;
+    font-size: 12em;
+    color: azure;
+    text-transform: uppercase;
+    height: 100%;
+
+}
+
+.box{
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   /* float: left;*/
+    overflow:hidden;
+    position: absolute;
+}
+.box::before {/*PLANO TRANSPARENTE*/
+    content:"";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.1;
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-transform: skew(30deg) scaleY(1) translate(0, 0);
+            transform: skew(30deg) scaleY(1) translate(0, 0);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.box:hover:before {/*PLANO TRANSPARENTE*/
+    content:"";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.1;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: skew(00deg) scaleY(1) translate(0, 0);
+    transform: skew(00deg) scaleY(1) translate(0, 0);
+    transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+
+
+.it{
+    background-color: #244F75;
+    text-align: right;
+    width:20%;
+    left:0;
+    position: absolute;
+    padding-right: 0px;
+    height: 100%;
+
+
+}
+/*ANIMACIÓN IT*/
+.it{
+    animation-duration: 1.2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -100%;
+      width: 20%
+    }
+  
+    to {
+      margin-left: 0;
+      width: 20%;
+    }
+}
+
+
+
+
+.a{
+    text-align: right;
+    background-color: #60BFBF;
+    height: 100%;
+    width:20%;
+    left:20%;
+    position: absolute;
+}
+/*ANIMACIÓN A*/
+.a{
+    animation-duration: 1.5s;
+    animation-name: slideup;
+  }
+  
+  @keyframes slideup {
+    from {
+      margin-top: 50%;
+      width: 20%
+    }
+  
+    to {
+      margin-top: 0;
+      width: 20%;
+    }
+}
+
+
+
+
+.ca{
+    background-color: #8C4B7E;
+    text-align: center;
+    height: 100%;
+    width:20%;
+    left:40%;
+    position: absolute;
+}
+.ca{
+    animation-duration: 1.5s;
+    animation-name: slidedown;
+  }
+  
+  @keyframes slidedown {
+    from {
+      margin-top: -100%;
+      width: 20%
+    }
+  
+    to {
+      margin-top: 0;
+      width: 20%;
+    }
+}
+
+
+
+.de{
+    background-color: #F8BB44; 
+    text-align: center;
+    height: 100%;
+    width:20%;
+    left:60%;
+    position: absolute;
+    animation-duration: 2s;
+    animation-name: slideup;
+    
+}
+
+
+
+.my{
+    background-color: #F24B4B;
+    text-align: center;
+    height: 100%;
+    width:20%;
+    left:80%;
+    position: absolute;
+}
+.my{
+    animation-duration: 1.5s;
+    animation-name: slidetoleft;
+  }
+  
+  @keyframes slidetoleft {
+    from {
+      left: 100%;
+      width: 20%;
+    }
+  
+    to {
+      left: 80%;
+      width: 20%;
+    }
+}
+
+
+.letter {
+    margin-top: 75%;
+/*Para alinear verticalmente el elemento. No sé por qué funciona al 75%*/
+    
+}
+

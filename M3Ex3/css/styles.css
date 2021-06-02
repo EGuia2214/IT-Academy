@@ -1,0 +1,122 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    font-family: 'Lato', sans-serif;
+    font-size: 12em;
+    color: azure;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+.box{
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   /* float: left;*/
+    overflow:hidden;
+    position: absolute;
+}
+.box::before {/*PLANO TRANSPARENTE*/
+    content:"";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.1;
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-transform: skew(30deg) scaleY(1) translate(0, 0);
+            transform: skew(30deg) scaleY(1) translate(0, 0);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.box:hover:before {/*PLANO TRANSPARENTE*/
+    content:"";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.1;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: skew(00deg) scaleY(1) translate(0, 0);
+    transform: skew(00deg) scaleY(1) translate(0, 0);
+    transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+
+
+.it{
+    background-color: #244F75;
+    text-align: right;
+    width:20%;
+    left:0;
+    position: absolute;
+    padding-right: 0px;
+    height: 100%;
+
+}
+
+
+
+.a{
+    text-align: right;
+    background-color: #60BFBF;
+    height: 100%;
+    width:20%;
+    left:20%;
+    position: absolute;
+
+}
+
+
+
+
+.ca{
+    background-color: #8C4B7E;
+    text-align: center;
+    height: 100%;
+    width:20%;
+    left:40%;
+    position: absolute;
+}
+
+
+.de{
+    background-color: #F8BB44; 
+    text-align: center;
+    height: 100%;
+    width:20%;
+    left:60%;
+    position: absolute;
+}
+
+
+
+.my{
+    background-color: #F24B4B;
+    text-align: center;
+    height: 100%;
+    width:20%;
+    left:80%;
+    position: absolute;
+}
+
+.letter {
+    margin-top: 75%;
+/*Para alinear verticalmente el elemento. No sé por qué funciona al 75%*/
+    
+}
+
