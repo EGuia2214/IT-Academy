@@ -1,0 +1,170 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f0eeef !important;
+    }
+
+nav{
+    
+    background-color: #f0eeef;
+    border-bottom: 2px solid #32142d;;
+
+}
+
+.navbar{
+    min-height: 100px;
+    
+}
+
+.nav-link{
+    color: #32142d;
+}
+
+.nav-link:hover{
+    color: #32142d;
+    text-decoration: underline;
+}
+.navbar-toggler:focus {
+    /*text-decoration: none;
+    outline: 0;*/
+    box-shadow: none;/*important!*/
+}
+
+.ingresar ion-icon{
+    padding-right: 20px;
+    font-size: 2em;
+}
+
+#login{
+    color: white;
+    background-color: #32142d;
+
+}
+.carousel-caption h2{
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.carousel-caption p{
+    padding-bottom: 5px;
+    color: white;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+#main{
+    padding-top:15px;
+}
+
+#footer{
+    background-color: #32142d;
+    padding: 20px;
+
+}
+
+.redes{
+    font-size: 2em;
+}
+
+.redes ion-icon{
+    color: white;
+    padding: 20px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+    .container {
+        padding:0;
+        margin:0;
+    }
+    body {
+        padding:0;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom:0;
+    }
+    .navbar-toggler{
+        position: absolute;
+        left: 70%;
+        top: 30px;
+        font-size: 2em;
+    }
+    .ingresar ion-icon{
+        position: absolute;
+        top: 30px;
+        right: 10px;
+    
+    }
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+    .container {
+        padding:0;
+        margin:0;
+    }
+    body {
+        padding:0;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom:0;
+    }
+    .navbar-toggler{
+        position: absolute;
+        left: 70%;
+        top: 30px;
+        font-size: 2em;
+    }
+    .ingresar ion-icon{
+        position: absolute;
+        top: 30px;
+        right: 10px;
+    
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom:0;
+    }
+    .navbar-toggler{
+        position: absolute;
+        left: 70%;
+        top: 30px;
+        font-size: 2em;
+    }
+    .ingresar ion-icon{
+        position: absolute;
+        top: 30px;
+        right: 10px;
+    
+    }
+
+ }
+ 
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .ingresar ion-icon{
+        position: absolute;
+        top: 30px;
+        right: 10px;
+    
+    }
+ }
