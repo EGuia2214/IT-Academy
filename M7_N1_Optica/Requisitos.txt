@@ -1,0 +1,54 @@
+Base de datos CUL d'AMPOLLA
+
+PROVEEDOR
+- (id) PK AI
+- nom INDEX
+(- adreça)
+ - carrer
+ - número
+ - pis
+ - porta
+ - ciutat
+ - codi postal
+ - país
+
+ULLERES
+-(id_ulleres) PK AI
+- marca INDEX
+(- graduació
+ -de cada vidre)
+- graduació cristal izq
+- graduació cristal der
+- tipus muntura ENUM
+ - flotant
+ - pasta
+ - metálica
+- color muntura
+(- color
+ - de cada vidre)
+- color vidre izq
+- color vidre der
+- preu
+
+CLIENTES
+- (id) PK
+- nom INDEX
+- adreça postal
+- teléfono
+- correu electrónic
+- data de registre
+- recomendado por
+
+EMPLEADO
+- (id) PK
+- nombre
+- apellido
+- adreça postal
+- teléfono
+- email
+
+
+- VENTAS
+- (id_empleado) PK
+- (id_cliente) PK
+- (id_ulleres) Pk

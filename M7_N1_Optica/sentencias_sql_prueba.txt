@@ -1,0 +1,58 @@
+USE ulleres;
+
+INSERT INTO proveedor (nom, direccion_calle, numero, pis, porta, ciutat, codi_postal, pais)
+VALUES ('Optichic', 'Llul', '51', 'Sobreático', 'B', 'Barcelona', 08014, 'España');
+INSERT INTO proveedor (nom, direccion_calle, numero, pis, porta, ciutat, codi_postal, pais)
+VALUES ('Samana Brands', 'Doctor Esquerdo', '105', '', '', 'Madrid', 28005, 'España');
+INSERT INTO proveedor (nom, direccion_calle, numero, pis, porta, ciutat, codi_postal, pais)
+VALUES ('Perhaps&CO', 'Av del Acueducto', '28', '', '', 'Segovia', 40002, 'España');
+
+INSERT INTO marca (marca, proveedor_id_proveedor)
+VALUES ('Ray Ban', 1); 
+INSERT INTO marca (marca, proveedor_id_proveedor)
+VALUES ('Police', 1);
+INSERT INTO marca (marca, proveedor_id_proveedor)
+VALUES ('Gucci', 2);
+INSERT INTO marca (marca, proveedor_id_proveedor)
+VALUES ('Dolce & Gabbana', 2);   
+INSERT INTO marca (marca, proveedor_id_proveedor)
+VALUES ('Vogue', 3);
+INSERT INTO marca (marca, proveedor_id_proveedor)
+VALUES ('Ralph Lauren', 3); 
+
+INSERT INTO ulleres (grad_cristal_izq, grad_cristal_der, tipo_montura, color_vidre_izq, color_vidre_der, color_montura, preu, marca_id_marca)
+VALUES (0.5, 0.5, 'flotant', 'verde', 'verde', 'negro', 120.00, 1);
+INSERT INTO ulleres (grad_cristal_izq, grad_cristal_der, tipo_montura, color_vidre_izq, color_vidre_der, color_montura, preu, marca_id_marca)
+VALUES (0.8, 0.8, 'metálica', 'tabaco', 'tabaco', 'marrón', 90.90, 1);
+INSERT INTO ulleres (grad_cristal_izq, grad_cristal_der, tipo_montura, color_vidre_izq, color_vidre_der, color_montura, preu, marca_id_marca)
+VALUES (1.25, 1.25, 'pasta', 'oscuro', 'oscuro', 'negro', 99.80, 2);
+INSERT INTO ulleres (grad_cristal_izq, grad_cristal_der, tipo_montura, color_vidre_izq, color_vidre_der, color_montura, preu, marca_id_marca)
+VALUES (0.95, 0.95, 'flotant', 'azul metálico', 'azul metálico', 'gris', 85.00, 3);
+INSERT INTO ulleres (grad_cristal_izq, grad_cristal_der, tipo_montura, color_vidre_izq, color_vidre_der, color_montura, preu, marca_id_marca)
+VALUES (0.45, 0.45, 'metálica', 'oscuro', 'oscuro', 'negro', 125.50, 4);
+INSERT INTO ulleres (grad_cristal_izq, grad_cristal_der, tipo_montura, color_vidre_izq, color_vidre_der, color_montura, preu, marca_id_marca)
+VALUES (0.0, 0.0, 'metálica', 'verde', 'verde', 'negro', 100, 5);
+INSERT INTO ulleres (grad_cristal_izq, grad_cristal_der, tipo_montura, color_vidre_izq, color_vidre_der, color_montura, preu, marca_id_marca)
+VALUES (0.0, 0.0, 'pasta', 'transparente', 'transparente', 'blanco', 125, 6);  
+
+INSERT INTO clientes (nom, direccion_postal, telefono, email, recomendado_por)
+VALUES ('Carlos Gómez', 'Av Montreal 58 1ero 2da', 66666666, 'carlosgomez@hotmail.com', '');
+INSERT INTO clientes (nom, direccion_postal, telefono, email, recomendado_por)
+VALUES ('Pipi García', 'Calle 66 nº 2 entresuelo', 666666667, 'pipigarcia@gmail.com', '');
+INSERT INTO clientes (nom, direccion_postal, telefono, email, recomendado_por)
+VALUES ('Pepa Juarez', 'Roc Boronat 27 bajos', 668668668, 'pepajuarez@hotmail.com', '');
+
+INSERT INTO empleados (nom, apellido, direccion_postal, telefono)
+VALUES ('Jorge', 'Ortega', 'C/ Wellington 15 1º 2ª', 645456654);
+INSERT INTO empleados (nom, apellido, direccion_postal, telefono)
+VALUES ('Alberto', 'Carrillo', 'C/ del centro 155 10º piso', 645333654);
+INSERT INTO empleados (nom, apellido, direccion_postal, telefono)
+VALUES ('Cristina', 'Soria', 'C/ de Abajo S/N', 64521124);
+
+
+
+
+
+
+
+ 

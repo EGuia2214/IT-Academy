@@ -1,0 +1,67 @@
+PIZZERÍA
+--------
+
+CLIENTE
+- id_cliente
+- nombre
+- apellido
+- direccion
+- (id_localidad)
+- cod_postal
+- email
+- telefono
+
+LOCALIDAD
+- id_localidad
+- localidad
+- (id_provincia)
+
+PROVINCIA
+- id_provincia
+- nombre_provincia
+
+COMANDA_LISTADO
+- (id_comanda) 
+- (id_producto)
+- cantidad
+
+COMANDA
+- id_comanda
+- entrega(tienda/a domicilio)
+- (id_cliente)
+- (id_tienda)
+- (id_empleado)
+
+CATEGORÍA_PRODUCTO
+- id_categ_prod
+- nombre_producto
+
+PRODUCTO
+- id_producto
+- nombre_producto
+- descripción
+- imagen
+- precio
+- (id_categ_prod) 
+
+TIENDA
+- id_tienda
+- direccion
+- cod_postal
+- (id_localidad)
+
+EMPLEADOS
+- id_empleado
+- cat_emp(cocinero/repartidor)
+- nombre
+- apellido
+- nif
+- telefono
+
+A_DOMICILIO
+- (id_comanda)
+- (id_empleado)
+- hora_reparto (date/time)
+
+
+
