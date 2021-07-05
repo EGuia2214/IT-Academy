@@ -1,0 +1,74 @@
+YOU TUBE - REQUISITOS
+---------------------
+USUARIO
+-id_user (PK)
+-email
+-password
+-nombre_user
+-apellido_user
+-fecha_nacimiento
+-sexo
+-pais
+-cod_postal
+
+VIDEO
+-id_video (PK)
+-titulo
+-descripcion
+-tamano_mb
+-nombre_arch
+-duracion_arch
+-thumbnail
+-reproducciones
+-likes
+-dislikes
+-estado(publico, oculto, privado)
+
+USER_PUBLIC_VIDEO
+-id_user (FK)
+-id_video (FK)
+-fecha_public
+
+ETIQUETAS
+-id_etiqueta (PK)
+-nombre_etiqueta
+
+ETIQUETAS_EN_VIDEO
+-id_video (FK)
+-id_etiqueta (FK)
+
+CANAL
+-id_canal (PK)
+-nombre_canal
+-descripcion_canal
+-fecha_creacion
+
+SUSCRIPCIONES
+-id_user (FK)
+-id_canal (FK)
+
+LIKES_DISLIKES
+-id_user (FK)
+-id_video (FK)
+-like_o_dislike
+-fecha_hora_dis_like
+
+PLAYLIST
+-id_playlist (PK)
+-id_user (FK)
+-nom_playlist
+-fecha_playlist
+-estado(publica, privada)
+
+COMENTARIOS
+-id_comentario
+-texto_comentario
+-fecha_comentario
+-id_user (FK)
+-id_video (FK)
+
+LIKE_COMENTARIOS
+-id_user (FK)
+-id_video (FK)
+-like_o_dislike_coment
+-fecha_hora_dis_like_coment
