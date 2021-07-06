@@ -1,0 +1,96 @@
+SPOTIFY 
+-------
+USERS 
+- id_user (PK)
+- email
+- password
+- nickname
+- fecha_nac
+- sexo (varón, mujer)
+- pais
+- cod_postal
+- suscripicion (free o premium)
+
+SUSCRIPCIONES
+- id_suscripcion (PK)
+- id_user (FK)
+- fecha_inicio
+- fecha_renovacion
+- forma_de_pago (tarjeta, PayPal)
+
+TARJETAS (no faltaría el nombre?)
+- nro_tarjeta (PK)
+- fecha_caducidad
+- cod_seguridad
+- id_user (FK)
+
+CUENTAS_PAYPAL
+- id_cuentas_paypal (PK)
+- nombre_usario_paypal
+- id_user (FK)
+
+PAGOS
+- id_pago (PK)
+- fecha_pago
+- total
+- id_user (FK)
+
+PLAYLISTS
+- id_playlist (PK)
+- titulo_playlist
+- numero_canciones
+- fecha_creacion
+- estado (activa, eliminada)
+- id_user (FK)
+
+PLAYLISTS_ELIMINADAS
+- id_playlist (FK)
+- fecha_eliminacion
+
+PLAYLISTS_COMPARTIDAS
+- id_playlist (FK)
+- id_user (FK)(usuario que agrega la canción)
+- fecha_agrega_cancion
+
+ARTISTA
+- id_artista (pk)
+- nombre
+- link_imagen
+
+ALBUM
+- id_album (PK)
+- titulo_album
+- any
+- link_portada
+- id_artista (FK)
+
+CANCION
+- id_cancion (PK)
+- id_album (FK)
+- titulo_cancion 
+- duracion
+- reproducciones
+
+ARTISTA_FOLLOWERS
+- id_artista (FK)
+- id_user (FK)
+
+GENEROS (géneros musicales)
+- id_genero (PK)
+- nombre_genero
+
+ARTISTAS_SIMILARES
+- id_artista (FK)
+- id_genero (FK)
+
+ALBUMES FAVORITOS
+- id_album (FK)
+- id_user (FK)
+
+CANCIONES FAVORITAS
+- id_cancion (FK)
+- id_user (FK)
+
+
+
+
