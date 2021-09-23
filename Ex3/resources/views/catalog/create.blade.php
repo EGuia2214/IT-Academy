@@ -4,7 +4,7 @@
 
 @section('content')
     <h1>Afegir llibre</h1>
-    <form action="{{ route('catalog.created') }}" method="post">
+    <form action="{{ route('catalog.store') }}" method="post">
 
       @csrf
 

@@ -21,14 +21,22 @@ class CatalogController extends Controller
         return view('catalog.show', ['id'=>$id] );
     }
 
-    public function modified(Request  $request){
+    
+    public function edit($id){
+        return view('catalog.edit', ['id'=>$id]);   
+
+    }
+
+    public function update(Request  $request){
         $validatedData = $request->validate([
             'titulo' => 'required',
             'autor' => 'required',
             'publicacion' => 'required',
         ]); 
 
-        return view('catalog.modified');
+        ///actualiza el registro 
+
+        return view('catalog.update');
     }
 
     /**
@@ -46,7 +54,7 @@ class CatalogController extends Controller
 
     }
 
-    public function created(Request  $request){
+    public function store(Request  $request){
         $validatedData = $request->validate([
             'titulo' => 'required',
             'autor' => 'required',
@@ -58,8 +66,5 @@ class CatalogController extends Controller
 
 
 
-    public function edit($id){
-        return view('catalog.edit', ['id'=>$id]);   
 
-    }
 }

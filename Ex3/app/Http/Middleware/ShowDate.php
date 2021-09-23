@@ -16,7 +16,7 @@ class ShowDate
      */
     public function handle(Request $request, Closure $next)
     {
-        $now = date_create()->format('l jS \of F Y h:i:s A');
+        $now = date_create()->format('l jS \of F Y h:i A');
         echo $now;
 
         return $next($request);

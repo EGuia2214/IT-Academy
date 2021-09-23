@@ -30,11 +30,15 @@ Route::get('/catalog', [CatalogController::class, 'index'])->name('catalog.index
 
 Route::get('/catalog/show/{id}', [CatalogController::class, 'show'])->name('catalog.show');
 
-Route::post('/catalog/modified', [CatalogController::class, 'modified'])->name('catalog.modified');
+
+Route::get('/catalog/edit/{id}', [CatalogController::class, 'edit'])->name('catalog.edit');
+
+Route::put('/catalog/update', [CatalogController::class, 'update'])->name('catalog.update');
+
 
 Route::get('/catalog/create', [CatalogController::class, 'create'])->name('catalog.create');
 
-Route::post('/catalog/created', [CatalogController::class, 'created'])->name('catalog.created');
+Route::post('/catalog/store', [CatalogController::class, 'store'])->name('catalog.store');
 
-Route::get('/catalog/edit/{id}', [CatalogController::class, 'edit'])->name('catalog.edit');
+
 
