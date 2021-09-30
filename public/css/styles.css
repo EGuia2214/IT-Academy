@@ -1,0 +1,57 @@
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+button a:link {
+    
+    text-decoration: none;
+}
+
+a:visited {
+    
+    text-decoration: none;
+
+}
+
+a:focus {
+    
+    text-decoration: none;
+
+}
+
+a:hover {
+    
+    text-decoration: none;
+
+}
+
+a:active {
+    
+    text-decoration: none;
+
+}
+
+a.relative.inline-flex.items-center.px-4.py-2.ml-3.text-sm.font-medium.text-gray-700.bg-white.border.border-gray-300.leading-5.rounded-md.hover\:text-gray-500.focus\:outline-none.focus\:ring.ring-gray-300.focus\:border-blue-300.active\:bg-gray-100.active\:text-gray-700.transition.ease-in-out.duration-150{
+    color: black;
+    background-color: cadetblue !important;
+}
+
+a.relative.inline-flex.items-center.px-4.py-2.text-sm.font-medium.text-gray-700.bg-white.border.border-gray-300.leading-5.rounded-md.hover\:text-gray-500.focus\:outline-none.focus\:ring.ring-gray-300.focus\:border-blue-300.active\:bg-gray-100.active\:text-gray-700.transition.ease-in-out.duration-150{
+    color: black;
+    background-color: cadetblue !important;
+}
+p.text-sm.text-gray-700.leading-5 {
+    margin-top: 15px;
+}
+
+span.relative.inline-flex.items-center.px-4.py-2.text-sm.font-medium.text-gray-500.bg-white.border.border-gray-300.cursor-default.leading-5.rounded-md{
+    background-color: cadetblue !important;
+    
+}
+
