@@ -1,0 +1,927 @@
+{
+	"info": {
+		"_postman_id": "700f09ca-2c42-41b4-af81-8298829349cf",
+		"name": "PHP_new5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Api Dashboard",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/teams",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"teams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teams/show/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/teams/show/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"teams",
+						"show",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teams/edit/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/teams/edit/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"teams",
+						"edit",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teams/update/5",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "team_name",
+							"value": "Manchester UTD",
+							"type": "text"
+						},
+						{
+							"key": "stadium",
+							"value": "Old Trafford",
+							"type": "text"
+						},
+						{
+							"key": "foundation_year",
+							"value": "1878",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Manchester",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/teams/5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"teams",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teams/create",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/teams/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"teams",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teams/store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "team_name",
+							"value": "Real Madrid CF",
+							"type": "text"
+						},
+						{
+							"key": "stadium",
+							"value": "Santiago Bernabeu",
+							"type": "text"
+						},
+						{
+							"key": "foundation_year",
+							"value": "1902",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Madrid",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/teams/store",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"teams",
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teams/delete/7",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/teams/destroy/7",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"teams",
+						"destroy",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/scores",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"scores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scores/show/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/scores/show/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"scores",
+						"show",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scores/edit/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/scores/edit/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"scores",
+						"edit",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scores/update/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "local_team",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "local_score",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "visitor_team",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "visitor_score",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/scores/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"scores",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scores/create",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/scores/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"scores",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scores/store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "local_team",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "local_score",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "visitor_team",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "visitor_score",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/scores/store",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"scores",
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Scores/delete/4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/scores/destroy/4",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"scores",
+						"destroy",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Players",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/players",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"players"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Players/show/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/players/show/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"players",
+						"show",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Players/edit/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/players/edit/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"players",
+						"edit",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Players/update/3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "player_name",
+							"value": "Joe Hart",
+							"type": "text"
+						},
+						{
+							"key": "player_team",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "33",
+							"type": "text"
+						},
+						{
+							"key": "year_of_birth",
+							"value": "1988",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/players/5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"players",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Players/create",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/players/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"players",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Players/store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "player_name",
+							"value": "Cristiano Ronaldo",
+							"type": "text"
+						},
+						{
+							"key": "player_team",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "36",
+							"type": "text"
+						},
+						{
+							"key": "year_of_birth",
+							"value": "1985",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/players/store",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"players",
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Players/delete/6",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/dashboard/players/destroy/6",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"dashboard",
+						"players",
+						"destroy",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Usuario Ejemplo",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "user@example.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345678",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "user@example.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345678",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiNzJjNmY1YzYzMDA4ZGMyNmU4MzUwMmI5MzRhNDVhNjBiODdiM2EyZTMxODYwMTliMmExMjYwOGY1ZjQ0YmM3ZTJjZGI3YTlkOTkwMzllMGIiLCJpYXQiOjE2MzcwNzM3OTIuMDk2ODIzLCJuYmYiOjE2MzcwNzM3OTIuMDk2ODI2LCJleHAiOjE2Njg2MDk3OTIuMDkwMTUxLCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.YMjFp4E28y-Q7pxZ6fhl9eze026wEkrifWMmVpXLlW8kkOAP6B5KMyCg1LS9YaGAQMwecrsUEq9iiGScy_MSc04VrkW4a_Shxac9rruuxE4FxuUGg2CuQoyABtdpjUb5NfDoh-9S31q89AHNHMqU14ySwzqdhuBoLm4JjziDAe2KAGrszF1YGKpXdARiHRh220Oi6H2ZS20Bdm14q0TU_5T9KF2oZrSdvjv6YNQoTgPafL89y7gckRBwn-M599DeQaKuG7Ca_u0Qi93nyLQvvoeP7hpptVU8CBOxfPNTYgNmcez8N6W2GGLVwFtFi3JVztqt8WUiV_HcaQi2lk24mc3IdiUSqTVgnLOMdZ04VYsqrovdu-BTqC_WyfUiJefd67mVU9ibAnDPXGJO77-If6a9JZ1X8XRvAUTEwGqdqjpKpBSarW3NexAO3L17lxhvCrcrDUne8RdrRrDbKKdnzziqTspkbSyKJeLkPp44G3TZNh1fqIwOioD5f1B4MR-5lwbWEfwDVVu2O6z5CIR4swftbo3uQKss_g4AWqe7FKs1EvizvlZh2-lMY2Qv9IO73QgCwiFRyXTgKMBdh3ogRdVafNIaT8yX9lLe2HFn6Eov6gQFSYW6VYUFlY5HQa2jnJlqEWIL8Agzm0HK3HNIMiCGj1kGkXmS2yN2uXpaXSw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/IT-Academy/PHP_new5/public/api/logout",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"IT-Academy",
+						"PHP_new5",
+						"public",
+						"api",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
